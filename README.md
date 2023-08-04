@@ -10,7 +10,7 @@
 
 ## Yerin
 ## Yerin testing main
-#바보야
+# 바보야
 
 
 ## Kwangwon
@@ -18,4 +18,4 @@
 ## Doyeon
 ## Doyeon testing main
 
-##tes
+## tes
