@@ -11,6 +11,7 @@
 ## Yerin
 ## Yerin testing main
 # 바보야
+# 도연이 바보야
 
 
 ## Kwangwon
