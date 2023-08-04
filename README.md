@@ -6,15 +6,15 @@
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> sdf </div> 
     </div>
     <div style="text-align: left;"> 
-    <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Members </h1>
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Members </h2>
     <div style="text-align: left;">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ HyoSang Yoo (Team Leader) </h2> <br> 
+    <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ HyoSang Yoo (Team Leader) </h3> <br> 
     <div  align= "center"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white">
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
     <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"></div>
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ BonGeun Gu (Back-End Developer) </h2> <br> 
+    <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ BonGeun Gu (Back-End Developer) </h3> <br> 
     <div  align= "center"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white">
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
     <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
@@ -26,18 +26,18 @@
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">
     <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat-square&logo=Javascript&logoColor=white">
     <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"></div>
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ KwangWon Lee (Back-End Developer) </h2> <br> 
+    <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ KwangWon Lee (Back-End Developer) </h3> <br> 
     <div  align= "center"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white">
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
     <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
     <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"></div>
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ YeRin Lee (Front-End Developer) </h2> <br> 
+    <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ YeRin Lee (Front-End Developer) </h3> <br> 
     <div  align= "center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
     <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
     <img src="https://img.shields.io/badge/Matlab-0076a8?style=flat-square&logo=Matlab&logoColor=white"></div>
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ DoYeon Park (Front-End Developer) </h2> <br> 
+    <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ DoYeon Park (Front-End Developer) </h3> <br> 
     <div  align= "center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
     <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
