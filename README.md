@@ -3,20 +3,14 @@
 ## Hyosang
 ## Hyosang testing main
 
-
 ## Bongeun
 ## Bongeun testing main
 
-
 ## Yerin
 ## Yerin testing main
-# 바보야
-# 도연이 바보야
-
 
 ## Kwangwon
+## Kwangwon testing main
 
 ## Doyeon
 ## Doyeon testing main
-
-## tes
