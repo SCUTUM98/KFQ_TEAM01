@@ -10,6 +10,7 @@
 
 ## Yerin
 ## Yerin testing main
+#바보야
 
 
 ## Kwangwon
