@@ -5,6 +5,7 @@
 
 
 ## Bongeun
+## Bongeun testing main
 
 
 ## Yerin
@@ -14,4 +15,4 @@
 ## Kwangwon
 
 ## Doyeon
-## Doyeon testing maim
+## Doyeon testing main
