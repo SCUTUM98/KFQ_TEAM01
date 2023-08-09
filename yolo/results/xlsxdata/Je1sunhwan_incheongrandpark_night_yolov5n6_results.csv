@@ -1,1 +1,1 @@
-name,time,xmin,ymin,xmax,ymax,confidence,class
+camera_name,time,xmin,ymin,xmax,ymax,confidence,class,name
