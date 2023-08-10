@@ -4,9 +4,10 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-# description ?? => 422error
+# API Server로 받아오고자 하는 데이터 형태
+# description ?? => 422 error
 class Item(BaseModel):
-    camera_name : str # 필수 속성으로 갖고 str인지 검사
+    camera_name : str 
     time : str
     xmin : float
     ymin : float
