@@ -12,7 +12,7 @@ def name():
 
 @app.get("/two")
 def car():
-#파일경로는 개인별로 바꿔주세요
+#파일경로는 개인별로 바꿔주세요.
   folder_path = r'/Users/bongeungu/Desktop/kfq/KFQ_TEAM01/yolo/results/xlsxdata'
   excel_files = glob.glob(os.path.join(folder_path, '*.csv'))
   excel_files = [path.replace("\\", "/") for path in excel_files]
