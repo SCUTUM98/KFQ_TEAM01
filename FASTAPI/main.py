@@ -1,4 +1,4 @@
-from typing import List, Dict
+from typing import List, Dict,Optional,Union
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
@@ -7,12 +7,12 @@ app = FastAPI()
 class Item(BaseModel):
     camera_name: str
     time: str
-    xmin: float
-    ymin: float
-    xmax: float
-    ymax: float
-    confidence: float
-    mclass: int
+    xmin: Optional[float] = None
+    ymin: Optional[float] = None
+    xmax: Optional[float] = None
+    ymax: Optional[float] = None
+    confidence: Optional[float] = None
+    type_class: int
     name: str
     action : str
 
