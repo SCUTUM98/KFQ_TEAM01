@@ -14,6 +14,7 @@ class Item(BaseModel):
     confidence: float
     mclass: int
     name: str
+    action : str
 
 # 데이터를 저장할 임시 딕셔너리
 items_db: Dict[int, Item] = {}
