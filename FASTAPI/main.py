@@ -1,26 +1,39 @@
-from typing import Optional
-from fastapi import Body, FastAPI
+from typing import List, Dict
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 
 app = FastAPI()
 
-# description ?? => 422error
 class Item(BaseModel):
-    camera_name : str # 필수 속성으로 갖고 str인지 검사
-    time : str
-    xmin : float
-    ymin : float
-    xmax : float
-    ymax : float
-    confidence : float
-    mclass : int
-    name : str
+    camera_name: str
+    time: str
+    xmin: float
+    ymin: float
+    xmax: float
+    ymax: float
+    confidence: float
+    mclass: int
+    name: str
 
-@app.get("/")
-def 환영합니다():
-  return 'Welcome!'
+# 데이터를 저장할 임시 딕셔너리
+items_db: Dict[int, Item] = {}
+
+item_id = 1
 
 @app.put("/items")
 async def update_item(item: Item):
-    results = {"item": item}
-    return results
+    global item_id
+    items_db[item_id] = item
+    item_id += 1
+    return {"message": "Item added successfully"}
+
+@app.get("/items")
+async def get_items():
+    return items_db
+
+@app.get("/items/{item_id}")
+async def get_item(item_id: int):
+    if item_id in items_db:
+        return items_db[item_id]
+    else:
+        raise HTTPException(status_code=404, detail="Item not found")
