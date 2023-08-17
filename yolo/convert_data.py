@@ -1,6 +1,6 @@
 import cv2
 
-def collect_data(results, frame, mapping, results_df):
+def collect_data(results, frame, mapping, results_df, captured_time):
     # Process the results and draw bounding boxes on the frame
     for detections in results:
         if detections is not None:
@@ -21,7 +21,7 @@ def collect_data(results, frame, mapping, results_df):
                 cv2.putText(frame, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, thickness)
 
                 # Append detection results to the DataFrame
-                row = [int(cls), class_name, conf, x1, y1, x2, y2]
+                row = [captured_time, class_name, conf, x1, y1, x2, y2, 0, 'NaN']
                 results_df.loc[len(results_df)] = row
                 
     return results_df
