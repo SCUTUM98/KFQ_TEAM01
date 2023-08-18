@@ -38,8 +38,8 @@ EVENT/ : YOLO Object Detection을 통해 인지되는 Object를 기반으로 Eve
 
 ## 2.3 Animals detection
 ### Roboflow
-* cat: 
-* deer:
-* dog:
-* racoon:
-* wild boar: 
+* cat: https://universe.roboflow.com/yolo-4akh3/cat-model-oyjob
+* deer: https://universe.roboflow.com/jwellstx-ahvez/deerface
+* dog: https://universe.roboflow.com/tansam-uunrl/dog-detector1
+* racoon: https://universe.roboflow.com/objectdection2/racoonsfinder
+* wild boar: https://universe.roboflow.com/workspace1-lhfkr/wildboar-afbbo
