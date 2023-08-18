@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-db_url = "mysql+mysqldb://root:tiger@127.0.0.1:3306/db_test"
+db_url = "mysql+mysqldb://{사용자명}:{패스워드}@127.0.0.1:3306/{데이터베이스명}"
 
 args = {
     "pool_size": 1,
