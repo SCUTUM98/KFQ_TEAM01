@@ -5,13 +5,13 @@ def send_server(results_df, camera_name):
     # FastAPI 서버의 URL로 변경해주세요
     
     for i in range(len(results_df)):
-        if results_df['Class_Name'][i] == 'person':
+        if results_df['action_detection'][i] == 1:
             # POST 요청에 보낼 데이터
             record_data = {
                 "cctv_id": camera_name,
                 "event_item": results_df['Class_Name'][i],
                 "event_time": results_df['Time'][i],
-                "event_type": "P01",
+                "event_type": results_df['event_type'][i],
                 "event_description": results_df['action_category'][i]
             }
             
