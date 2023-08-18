@@ -17,11 +17,17 @@ def category(object_coords):
                     if bx1 <= px1 <= bx2 and by1 <= py1 <= by2:
                         object_coords['action_detection'][j] = 1
                         object_coords['action_category'][j] = f'{object_coords["Class_Name"][j]} detected with person'
-                        object_coords['event_type'][j] = 'B01'
+                        if object_coords['Class_Name'][j] == 'bicycle':
+                            object_coords['event_type'][j] = 'B01'
+                        else:
+                            object_coords['event_type'][j] = 'B02'
                     elif bx1 <= px2 <= bx2 and by1 <= py2 <= by2:
                         object_coords['action_detection'][j] = 1
                         object_coords['action_category'][j] = f'{object_coords["Class_Name"][j]} detected with person'
-                        object_coords['event_type'][j] = 'B01'
+                        if object_coords['Class_Name'][j] == 'bicycle':
+                            object_coords['event_type'][j] = 'B01'
+                        else:
+                            object_coords['event_type'][j] = 'B02'
                     else:
                         continue
                 else:
