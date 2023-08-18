@@ -23,7 +23,10 @@ EVENT/ : YOLO Object Detection을 통해 인지되는 Object를 기반으로 Eve
 │   ├── A03 : racoon detected
 │   └── A04 : wild boar or pig detected
 │
-└── Obstacle/
+├── Obstacle/
+│   └── ...
+│
+└── Vehicle/
     └── ...
 ```
 
