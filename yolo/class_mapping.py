@@ -14,7 +14,7 @@ yolo_class_mapping = {
 }
 
 fire_class_mapping = {
-    0: 'fire', 1: 'smoke'
+    0: 'fire', 1: 'smoke', 2: 'car fire'
 }
 
 animals_class_mapping = {
