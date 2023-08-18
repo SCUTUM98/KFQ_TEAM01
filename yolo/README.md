@@ -35,7 +35,6 @@ EVENT/ : YOLO Object Detection을 통해 인지되는 Object를 기반으로 Eve
 ### Roboflow
 * https://universe.roboflow.com/porvip/fire-szxx8
 ### Other Dataset
-* 아래 내용은 대충 적은거라 정확히 해보고 수정 필요.
 
 ## 2.3 Animals detection
 ### Roboflow
