@@ -2,16 +2,17 @@ def category(object_coords):
     for i in range(len(object_coords)):        
         if object_coords['Class_Name'][i] == 'person':
             for j in range(len(object_coords)):
+                px1 = object_coords['X1'][i]
+                py1 = object_coords['Y1'][i]
+                px2 = object_coords['X2'][i]
+                py2 = object_coords['Y2'][i]
+                bx1 = object_coords['X1'][j]
+                by1 = object_coords['Y1'][j]
+                bx2 = object_coords['X2'][j]
+                by2 = object_coords['Y2'][j]
+                
+                # bicycle and motocycle detection
                 if object_coords['Class_Name'][j] in ['bicycle', 'motorcycle']:
-                    px1 = object_coords['X1'][i]
-                    py1 = object_coords['Y1'][i]
-                    px2 = object_coords['X2'][i]
-                    py2 = object_coords['Y2'][i]
-                    bx1 = object_coords['X1'][j]
-                    by1 = object_coords['Y1'][j]
-                    bx2 = object_coords['X2'][j]
-                    by2 = object_coords['Y2'][j]
-                    
                     if bx1 <= px1 <= bx2 and by1 <= py1 <= by2:
                         object_coords.at[j, 'action_detection'] = 1
                         object_coords.at[j, 'action_category'] = f'{object_coords["Class_Name"][j]} detected with person'
@@ -26,6 +27,15 @@ def category(object_coords):
                             object_coords.at[j, 'event_type'] = 'B01'
                         else:
                             object_coords.at[j, 'event_type'] = 'B02'
+                
+                # person detection which printed on vehicle
+                elif object_coords['Calss_Name'][j] in ['car', 'truck', 'bus']:
+                    if bx1 <= px1 <= bx2 and by1 <= py1 <= by2:
+                        continue # nothing happened
+                    elif bx1 <= px2 <= bx2 and by1 <= py2 <= by2:
+                        continue # nothing happened
+                
+                # person detected
                 else:
                     object_coords.at[i, 'action_detection'] = 1
                     object_coords.at[i, 'action_category'] = 'person detected'
