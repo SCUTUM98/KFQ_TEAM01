@@ -20,3 +20,7 @@ fire_class_mapping = {
 animals_class_mapping = {
     0: 'cat', 1: 'deer', 2: 'dog', 3: 'racoon', 4: 'wild_boar'
 }
+
+obstacle_class_mapping = {
+    
+}
