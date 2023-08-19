@@ -2,8 +2,6 @@ import requests
 from private import url
 
 def send_server(results_df, camera_name):
-    # FastAPI 서버의 URL로 변경해주세요
-    
     for i in range(len(results_df)):
         if results_df['action_detection'][i] == 1:
             # POST 요청에 보낼 데이터
