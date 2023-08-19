@@ -16,9 +16,14 @@ def send_server(results_df, camera_name):
             }
             
             print(record_data)
+            
+            headers = {
+                "Content-Type": "application/json"  # Specify the content type
+            }
 
+            response = requests.post(url, json=record_data, headers=headers)
             # POST 요청 보내기
-            response = requests.post(f"{url}/cctv/records", json=record_data)
+            #response = requests.post(f"{url}/cctv/records", json=record_data)
 
             # 응답 확인
             if response.status_code == 200:
