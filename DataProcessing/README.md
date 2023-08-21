@@ -1,4 +1,4 @@
-# 1. Created model
+# 1. Trained model
 ## 1.1. Fire Model
 ## 1.2. Animal Model
 ## 1.3. Obstacle Model
