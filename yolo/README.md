@@ -24,6 +24,11 @@ EVENT/ : YOLO Object Detection을 통해 인지되는 Object를 기반으로 Eve
 │   └── A04 : wild boar or pig detected
 │
 ├── Obstacle/
+│   ├── 
+│   ├──
+│   ├──
+│   ├──
+│   ├──
 │   └── ...
 │
 └── Vehicle/
@@ -38,6 +43,7 @@ EVENT/ : YOLO Object Detection을 통해 인지되는 Object를 기반으로 Eve
 ### Roboflow
 * https://universe.roboflow.com/porvip/fire-szxx8
 ### Other Dataset
+* Car fire detection
 
 ## 2.3 Animals detection
 ### Roboflow
@@ -46,3 +52,12 @@ EVENT/ : YOLO Object Detection을 통해 인지되는 Object를 기반으로 Eve
 * dog: https://universe.roboflow.com/tansam-uunrl/dog-detector1
 * racoon: https://universe.roboflow.com/objectdection2/racoonsfinder
 * wild boar: https://universe.roboflow.com/workspace1-lhfkr/wildboar-afbbo
+
+## 2.4 Obstacle detection
+### Roboflow
+* Tree: https://universe.roboflow.com/tree-detection-h9dcy/tree-detection-ekaot
+* Rock: https://universe.roboflow.com/iskandar/rock-detection-hhird
+* Box: https://universe.roboflow.com/objectdetection-rclje/parceldetection-cdilp
+* Tire: https://universe.roboflow.com/robert-almalak/tires-9zgkh
+### Other Dataset
+* Drum can
