@@ -22,5 +22,5 @@ animals_class_mapping = {
 }
 
 obstacle_class_mapping = {
-    
+    0: 'tree', 1: 'rock', 2: 'box', 3: 'drum', 4: 'tire'
 }
