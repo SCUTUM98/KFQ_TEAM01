@@ -24,11 +24,11 @@ EVENT/ : YOLO Object Detection을 통해 인지되는 Object를 기반으로 Eve
 │   └── A04 : wild boar or pig detected
 │
 ├── Obstacle/
-│   ├── 
-│   ├──
-│   ├──
-│   ├──
-│   ├──
+│   ├── S01 : Tree detected on the road
+│   ├── S02 : Rock detected on the road
+│   ├── S03 : Box detected on the road
+│   ├── S04 : Tire detected on the road
+│   ├── S05 : Drum detected on the road
 │   └── ...
 │
 └── Vehicle/
