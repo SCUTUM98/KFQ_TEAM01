@@ -104,5 +104,25 @@ def category(object_coords, road_coordinates):
                 elif object_coords['Class_Name'][i] == 'wild_boar':
                     object_coords.at[i, 'action_category'] = 'animal detected(wild_boar/pig)'
                     object_coords.at[i, 'event_type'] = 'A04'
+            
+            # obstacle detected
+            elif object_coords['Calss_Name'][i] in ['tree', 'rock', 'box', 'tire', 'drum']:
+                object_coords.at[i, 'action_detection'] = 1
+                # tree detected
+                if(object_coords['Class_Name'][i] == 'tree'):
+                    object_coords.at[i, 'action_category'] = 'obstacle detected(tree)'
+                    object_coords.at[i, 'event_type'] = 'S01'
+                elif(object_coords['Class_Name'][i] == 'rock'):
+                    object_coords.at[i, 'action_category'] = 'obstacle detected(rock)'
+                    object_coords.at[i, 'event_type'] = 'S02'
+                elif(object_coords['Class_Name'][i] == 'box'):
+                    object_coords.at[i, 'action_category'] = 'obstacle detected(box)'
+                    object_coords.at[i, 'event_type'] = 'S03'
+                elif(object_coords['Class_Name'][i] == 'tire'):
+                    object_coords.at[i, 'action_category'] = 'obstacle detected(tire)'
+                    object_coords.at[i, 'event_type'] = 'S04'
+                elif(object_coords['Class_Name'][i] == 'drum'):
+                    object_coords.at[i, 'action_category'] = 'obstacle detected(drum)'
+                    object_coords.at[i, 'event_type'] = 'S05'
     
     return object_coords
