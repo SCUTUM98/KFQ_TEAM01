@@ -10,7 +10,7 @@ def category(object_coords):
                 by1 = object_coords['Y1'][j]
                 bx2 = object_coords['X2'][j]
                 by2 = object_coords['Y2'][j]
-                
+
                 # bicycle and motocycle detection
                 if object_coords['Class_Name'][j] in ['bicycle', 'motorcycle']:
                     if bx1 <= px1 <= bx2 and by1 <= py1 <= by2:
@@ -27,19 +27,20 @@ def category(object_coords):
                             object_coords.at[j, 'event_type'] = 'B01'
                         else:
                             object_coords.at[j, 'event_type'] = 'B02'
-                
+
                 # person detection which printed on vehicle
-                elif object_coords['Calss_Name'][j] in ['car', 'truck', 'bus']:
+                elif object_coords['Class_Name'][j] in ['car', 'truck', 'bus']:
                     if bx1 <= px1 <= bx2 and by1 <= py1 <= by2:
                         continue # nothing happened
                     elif bx1 <= px2 <= bx2 and by1 <= py2 <= by2:
                         continue # nothing happened
-                
+
                 # person detected
                 else:
                     object_coords.at[i, 'action_detection'] = 1
                     object_coords.at[i, 'action_category'] = 'person detected'
                     object_coords.at[i, 'event_type'] = 'P01'
+
         elif object_coords['Class_Name'][i] in ['fire', 'smoke', 'car fire']:
             object_coords.at[i, 'action_detection'] = 1
             if object_coords['Class_Name'][i] == 'fire':
@@ -51,6 +52,7 @@ def category(object_coords):
             elif object_coords['Class_Name'][i] == 'car fire':
                 object_coords.at[i, 'action_category'] = 'car fire detected'
                 object_coords.at[i, 'event_type'] = 'F03'
+
         elif object_coords['Class_Name'][i] in ['cat', 'deer', 'dog', 'racoon', 'wild_boar']:
             object_coords.at[i, 'action_detection'] = 1
             if object_coords['Class_Name'][i] in ['cat', 'dog']:

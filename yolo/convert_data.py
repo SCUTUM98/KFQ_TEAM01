@@ -21,7 +21,7 @@ def collect_data(results, frame, mapping, results_df, captured_time):
                 cv2.putText(frame, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, thickness)
 
                 # Append detection results to the DataFrame
-                row = [captured_time, class_name, conf, x1, y1, x2, y2, 0, 'NaN']
+                row = [captured_time, class_name, conf, x1, y1, x2, y2, 0, 'NaN', 'NaN']
                 results_df.loc[len(results_df)] = row
                 
     return results_df
