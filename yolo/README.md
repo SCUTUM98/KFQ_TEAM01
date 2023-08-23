@@ -56,7 +56,7 @@ EVENT/ : YOLO Object Detection을 통해 인지되는 Object를 기반으로 Eve
 ## 2.4 Obstacle detection
 ### Roboflow
 * Tree: https://universe.roboflow.com/tree-detection-h9dcy/tree-detection-ekaot
-* Rock: https://universe.roboflow.com/iskandar/rock-detection-hhird
+* Rock: https://universe.roboflow.com/aditya-xxyrw/rocks-mrlaw
 * Box: https://universe.roboflow.com/objectdetection-rclje/parceldetection-cdilp
 * Tire: https://universe.roboflow.com/robert-almalak/tires-9zgkh
 ### Other Dataset
