@@ -112,7 +112,7 @@ def category(object_coords, road_coordinates):
                     object_coords.at[i, 'event_type'] = animal_detect[3]
             
             # obstacle detected
-            elif object_coords['Calss_Name'][i] in ['tree', 'rock', 'box', 'tire', 'drum']:
+            elif object_coords['Class_Name'][i] in ['tree', 'rock', 'box', 'tire', 'drum']:
                 object_coords.at[i, 'action_detection'] = 1
                 # tree detected
                 if(object_coords['Class_Name'][i] == 'tree'):
