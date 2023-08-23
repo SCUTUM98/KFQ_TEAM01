@@ -1,11 +1,20 @@
 from model.user_model import *
 from resource.database import Base
-from sqlalchemy import Boolean, Column, ForeignKey, Integer, String
+from sqlalchemy import Boolean, Column, ForeignKey, String, BLOB, engine
 from sqlalchemy.orm import Session
 from typing import List
 from fastapi import HTTPException
 
+# 추가 #######################################
+# class Image(Base):
+#     __tablename__='image_store'
 
+#     image_id = Column(String, primary_key = True)
+#     image = Column(BLOB)
+
+# Base.meradata.create_all(bind = engine)
+
+#############################################
 class User(Base):
     __tablename__ = "cctv_events"
 
@@ -15,7 +24,7 @@ class User(Base):
     event_item = Column(String)
     event_description = Column(String)
     
-def insert(db: Session, events: cctv_events)-> User:
+def insert(db: Session, events: CCTV_EVENTS)-> User:
     try:
         record = User(
             cctv_id = events.cctv_id,

@@ -2,9 +2,22 @@
 
 from pydantic import BaseModel
 
-class cctv_events(BaseModel):
+class Image(BaseModel):
+
+ class CCTV_INFO(BaseModel):
+    cctv_id : str
+    location : str
+    gps_x : float
+    gps_y : float   
+
+class CCTV_EVENTS(BaseModel):
     cctv_id : str
     event_time : str
     event_type : str
     event_item : str
     event_description : str
+
+class IMAGE(BaseModel):
+   image_id : str
+   image : bytes
+   url : str
