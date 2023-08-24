@@ -16,8 +16,3 @@ class CCTV_EVENTS(BaseModel):
     event_type : str
     event_item : str
     event_description : str
-
-class IMAGE(BaseModel):
-   image_id : str
-   image : bytes
-   url : str

@@ -10,13 +10,14 @@
     <link rel="import" href="events_map.html">
     <link rel="import" href="events_list.html">
     <link rel="import" href="search.html">
-    <link rel="import" href="stat1.html">
+    <link rel="import" href="stat_week.html">
+    <link rel="import" href="stat_month.html">
 </head>
 <body>
     <div id="container">
         <header>
             <div id="logo">
-                <a href="index.html"> 
+                <a href='#'> 
                     <h1>실시간 도로 이상상황</h1>
                 </a>
             </div>
@@ -24,22 +25,22 @@
                 <ul id="topMenu">
                     <li><a href="#">이력조회<span></span></a>
                         <ul>
-                            <li><a href="#" onclick="window.open('static/search.html')">CCTV 검색하기</a></li>
+                            <li><a href="static/search.html">CCTV 검색하기</a></li>
                             <li><a href="#" onclick="alert('박도연이 만들 예정.')">시간대별 검색하기</a></li>
-                            <li><a href="#" onclick="alert('내용이 없습니다.')">지역별 검색하기</a></li>
-                            <li><a href="#" onclick="alert('내용이 없습니다.')">키워드 검색하기</a></li>
+                            <li><a href="#" onclick="alert('!!준비 중 입니다!!')">지역별 검색하기</a></li>
+                            <li><a href="#" onclick="alert('!!준비 중 입니다!!')">키워드 검색하기</a></li>
                         </ul>
                     </li>
                     <li><a href="#">통계정보<span></span></a>
                         <ul>
-                            <li><a href="#" onclick="window.open('static/stat1.html')">주간 통계 보기</a></li>
-                            <li><a href="#" onclick="alert('내용이 없습니다.')">월간 통계 보기</a></li>
-                            <li><a href="#" onclick="alert('내용이 없습니다.')">시간대별 통계 보기</a></li>
+                            <li><a href='static/stat_week.html'>주간 통계 보기</a></li>
+                            <li><a href='static/stat_month.html'>월간 통계 보기</a></li>
+                            <li><a href="#" onclick="alert('!!준비 중 입니다!!')">시간대별 통계 보기</a></li>
                         </ul>
                     </li>
                     <li><a href="#">공지사항<span></span></a>
                         <ul>
-                            <li><a href="#" onclick="alert('내용이 없습니다.')">공지사항</a></li>
+                            <li><a href="#" onclick="alert('!!준비 중 입니다!!')">공지사항</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -58,9 +59,8 @@
                     <iframe src="/static/events_list.html"></iframe>
                 </div>
             </div>  
-
             <div id="map-container">
-                <iframe src="static/events_map.html" width="1000px" height="600px"></iframe>
+                <iframe src="/static/events_map.html" width="1000px" height="600px"></iframe>
             </div>
         </div>    
         <footer>

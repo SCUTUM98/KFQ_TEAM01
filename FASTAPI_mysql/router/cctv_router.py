@@ -9,37 +9,33 @@ import shutil
 
 user_router = APIRouter()
 
-#새로운 코드 추가##############################
+# 새로운 코드 추가##############################
 
 # 업로드된 jpg 파일을 저장할 디렉토리 경로
-# upload_dir = 'KFQ_TEAM01/DB/image_store'  #상세 경로 수정해주세요
+upload_dir = 'C:/workspace/Final_project/KFQ_TEAM01/fastAPI_mysql/image_store'  #상세 경로 수정해주세요
 
-# # 업로드된 파일을 저장하기 위한 디렉토리 생성
-# if not os.path.exists(upload_dir):
-#     os.makedirs(upload_dir)
+@user_router.post("/signup")
+def signup(user: CCTV_EVENTS, db: Session = Depends(get_db), file: UploadFile = File(...)):
+    # 데이터베이스에 사용자 정보 등록
+    cctv_repo.insert(db=db, events=user)
 
-# @user_router.post("/signup")
-# def signup_with_image(
-#     user: CCTV_EVENTS,  # cctv_events 모듈의 적절한 클래스로 수정해주세요
-#     image: UploadFile = File(...),
-#     db: Session = Depends(get_db)
-# ):
-#     try:
-#         # 사용자 정보 데이터베이스에 추가
-#         created_event = cctv_repo.insert(db=db, events=user)
-        
-#         # 업로드된 이미지를 저장
-#         image_path = os.path.join(upload_dir, image.filename)
-#         with open(image_path, "wb") as f:
-#             shutil.copyfileobj(image.file, f)
-        
-#         return {"message": "User and image uploaded successfully"}
-#     except Exception as e:
-#         return {"message": "An error occurred", "error": str(e)}
+    # post 되는 파일명 생성
+    cctv_id = user.cctv_id
+    event_time = user.event_time
+    event_type = user.event_type
 
+    # 파일 이름에 사용 가능한 문자로 변환
+    sanitized_event_time = event_time.replace(':', '').replace(' ', '_')
+    new_filename = f"{cctv_id}_{sanitized_event_time}_{event_type}"
+    
+    # 파일 저장
+    file_path = os.path.join(upload_dir, new_filename)
+    with open(file_path, "wb") as f:
+        shutil.copyfileobj(file.file, f)
+    
+    return {"message": "User signed up successfully and file uploaded."}
 
 # 기존 코드 ######################################
-@user_router.post("/signup")
-def signup(user: CCTV_EVENTS,  db: Session = Depends(get_db)):
-    return cctv_repo.insert(db=db, events = user)
-
+# @user_router.post("/signup")
+# def signup(user: CCTV_EVENTS,  db: Session = Depends(get_db)):
+#     return cctv_repo.insert(db=db, events = user)

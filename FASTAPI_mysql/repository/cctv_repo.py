@@ -5,16 +5,7 @@ from sqlalchemy.orm import Session
 from typing import List
 from fastapi import HTTPException
 
-# 추가 #######################################
-# class Image(Base):
-#     __tablename__='image_store'
 
-#     image_id = Column(String, primary_key = True)
-#     image = Column(BLOB)
-
-# Base.meradata.create_all(bind = engine)
-
-#############################################
 class User(Base):
     __tablename__ = "cctv_events"
 
