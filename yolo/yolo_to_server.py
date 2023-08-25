@@ -1,9 +1,17 @@
 import requests
+import cv2
+import os
+import json
 from private import url
 
-def send_server(results_df, camera_name):
+def send_server(results_df, camera_name, frame):
     for i in range(len(results_df)):
         if results_df['action_detection'][i] == 1:
+            # Set image path & name
+            img_path = f"captured_img/{camera_name}_{results_df['Time'][i]}.jpg"
+            # Save image
+            cv2.imwrite(img_path, frame)
+            
             # POST 요청에 보낼 데이터
             record_data = {
                 "cctv_id": camera_name,
@@ -12,17 +20,15 @@ def send_server(results_df, camera_name):
                 "event_type": results_df['event_type'][i],
                 "event_description": results_df['action_category'][i]
             }
-            
             print(record_data)
             
-            headers = {
-                "Content-Type": "application/json"  # Specify the content type
+            # 데이터 구성
+            data = {
+                'user': (None, json.dumps(record_data), 'application/json'),
+                'photo': (img_path, open(img_path, 'rb'))
             }
-
-            response = requests.post(url, json=record_data, headers=headers)
-            # POST 요청 보내기
-            #response = requests.post(f"{url}/cctv/records", json=record_data)
-
+            
+            response = requests.post(url, files=data)
             # 응답 확인
             if response.status_code == 200:
                 print("Record added successfully.")
@@ -30,3 +36,6 @@ def send_server(results_df, camera_name):
                 print("Failed to add record.")
                 print(response.status_code)
                 print(response.text)
+                
+            # Delete img
+            os.remove(img_path)
