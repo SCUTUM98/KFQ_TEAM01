@@ -20,6 +20,13 @@ if __name__ == "__main__":
 
 
 # 원래는 보안상 이렇게 하면 안됨
+
+origins = ["*"]
+
+origins = [
+    'http://localhost:8000',
+]
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
