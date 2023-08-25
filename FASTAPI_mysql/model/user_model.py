@@ -2,9 +2,7 @@
 
 from pydantic import BaseModel
 
-class Image(BaseModel):
-
- class CCTV_INFO(BaseModel):
+class CCTV_INFO(BaseModel):
     cctv_id : str
     location : str
     gps_x : float
