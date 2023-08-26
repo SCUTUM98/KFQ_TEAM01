@@ -20,11 +20,10 @@ def send_server(results_df, camera_name, frame):
                 "event_type": results_df['event_type'][i],
                 "event_description": results_df['action_category'][i]
             }
-            print(record_data)
             
             # 데이터 구성
             data = {
-                'user': (None, json.dumps(record_data), 'application/json'),
+                'cctv_data': (None, json.dumps(record_data), 'application/json'),
                 'photo': (img_path, open(img_path, 'rb'))
             }
             
@@ -37,5 +36,5 @@ def send_server(results_df, camera_name, frame):
                 print(response.status_code)
                 print(response.text)
                 
-            # Delete img
+            # Delete image
             os.remove(img_path)
