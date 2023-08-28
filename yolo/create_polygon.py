@@ -26,13 +26,9 @@ def check_polylist(poly_df):
     # Convex hull 생성
     hull = ConvexHull(poly_list)
     
-    # 기준점 설정
-    center_x, center_y = poly_list[hull.vertices[0]]
-    #print(f'center: {center_x, center_y}')
-    
     # 각도에 따라 점들을 시계 방향으로 정렬
     sorted_polygon = [poly_list[vertex] for vertex in hull.vertices]
-
+    # Polygon 생성
     polygon = Polygon(sorted_polygon)
     
     return polygon
