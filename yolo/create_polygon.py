@@ -32,15 +32,7 @@ def check_polylist(poly_df):
     
     # 각도에 따라 점들을 시계 방향으로 정렬
     sorted_polygon = [poly_list[vertex] for vertex in hull.vertices]
-    #sorted_polygon = sorted(hull.vertices, key=lambda vertex: get_angle(poly_list[vertex], center_x, center_y))
-    #print(f'sorted_polygon: {len(sorted_polygon)}')
-    #print(sorted_polygon)
-    
-    # 시계 방향으로 정렬된 정점을 가져옴
-    #convex_hull_points = [poly_list[vertex] for vertex in sorted_polygon]
-    #print(f'convex_hull_points: {len(convex_hull_points)}')
-    
-    #polygon = Polygon(convex_hull_points)
+
     polygon = Polygon(sorted_polygon)
     
     return polygon
