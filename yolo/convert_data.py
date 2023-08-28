@@ -1,7 +1,7 @@
 import cv2
 import pandas as pd
 
-def collect_data(results, frame, mapping, results_df, captured_time, road_coordinates):
+def collect_data(results, frame, mapping, results_df, captured_time):
     # Process the results and draw bounding boxes on the frame
     for detections in results:
         if detections is not None:
@@ -23,18 +23,13 @@ def collect_data(results, frame, mapping, results_df, captured_time, road_coordi
                 cv2.rectangle(frame, (x1, y1), (x2, y2), color, thickness)
                 cv2.putText(frame, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, thickness)
                 
-                if class_name in ['car', 'truck', 'bus']:
-                    if not ((road_coordinates['X1'] == x1) & (road_coordinates['Y1'] == y1)).any():
-                        road_coordinates = pd.concat([road_coordinates, pd.DataFrame({'X1': [x1], 'Y1': [y1], 'X2': [x2], 'Y2': [y2], 'Class_Name': [class_name]})], ignore_index=True)
-
                 # Append detection results to the DataFrame
                 row = [captured_time, class_name, conf, x1, y1, x2, y2, 0, 'NaN', 'NaN']
                 results_df.loc[len(results_df)] = row
                 
-    road_coordinates = road_coordinates.sort_values(by = ['X1', 'Y1'])
-    return results_df, road_coordinates
+    return results_df
 
-def collect_coordinates(results, frame, mapping, road_coordinates):
+def collect_coordinates(results, frame, mapping, road_coordinates, sidewalk_coordinates):
     for detections in results:
         if detections is not None:
             for x1, y1, x2, y2, conf, cls in detections:
@@ -50,5 +45,8 @@ def collect_coordinates(results, frame, mapping, road_coordinates):
                 if(class_name in ['car', 'truck', 'bus']):
                     row = [x1, y1, x2, y2, class_name]
                     road_coordinates.loc[len(road_coordinates)] = row
+                elif(class_name == 'person'):
+                    row = [x1, y1, x2, y2, class_name]
+                    sidewalk_coordinates.loc[len(sidewalk_coordinates)] = row
                     
-    return road_coordinates
+    return road_coordinates, sidewalk_coordinates
