@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block style %}
+{% endblock %}
+{% block contents %}
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-2 text-gray-800">이벤트 발생 이력 조회</h1>
+                    <p class="mb-4">서울시 내 자동차 전용도로에서 발생한 이벤트 누적 정보입니다.<a target="_blank"
+                            href="https://datatables.net"></a></p>
+  
+                    <!-- DataTales Example -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                          <h6 class="m-0 font-weight-bold text-primary">DataTables</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                        <tr>
+                                            <th>location</th>
+                                            <th>event_time</th>
+                                            <th>event_type</th>
+                                            <th>event_item</th>
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>location</th>
+                                            <th>event_time</th>
+                                            <th>event_type</th>
+                                            <th>event_item</th>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <tr>
+                                            <td>[남산]하얏트호텔</td>
+                                            <td>2023-08-26 10:57</td>
+                                            <td>C01</td>
+                                            <td>dog</td>
+                                        </tr>
+                                        <tr>
+                                            <td>[남산]용암초교</td>
+                                            <td>2023-08-26 09:57</td>
+                                            <td>B01</td>
+                                            <td>dog</td>
+                                        </tr>
+                                        <tr>
+                                            <td>[경부]한남IC</td>
+                                            <td>2023-08-26 09:54</td>
+                                            <td>B01</td>
+                                            <td>car</td>
+                                        </tr>
+                                        <tr>
+                                            <td>도봉지하차도 출구</td>
+                                            <td>2023-08-26 09:53</td>
+                                            <td>A02</td>
+                                            <td>car</td>
+                                        </tr>
+                                        <tr>
+                                            <td>[북부] 화랑대역 이수아파트 삼거리</td>
+                                            <td>2023-08-26 09:51</td>
+                                            <td>P02</td>
+                                            <td>dog</td>
+                                        </tr>
+                                        <tr>
+                                            <td>[올림픽] 방화대교 남단</td>
+                                            <td>2023-08-25 15:15</td>
+                                            <td>A04</td>
+                                            <td>BON</td>
+                                        </tr>
+                                        <tr>
+                                            <td>[마곡]양천길(서남물재생센터 삼거리)</td>
+                                            <td>2023-08-25 15:14</td>
+                                            <td>A01</td>
+                                            <td>animal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>[마곡]마곡역</td>
+                                            <td>2023-08-25 15:13</td>
+                                            <td>F01</td>
+                                            <td>HYOZZIN</td>
+                                        </tr>
+                                        <tr>
+                                            <td>[마곡]신방화역</td>
+                                            <td>2023-08-25 15:12</td>
+                                            <td>B01</td>
+                                            <td>dodo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>[올림픽] 행주대교~방화대교</td>
+                                            <td>2023-08-25 15:11</td>
+                                            <td>P01</td>
+                                            <td>yerin</td>
+                                        </tr>
+                                    </tbody>
+                                </table>                                
+                            </div>
+                        </div>
+                    </div>
+{% endblock %}

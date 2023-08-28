@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block style %}
+{% endblock %}
+
+{% block contents %}
+<!--dashboard-->
+<!-- Page Heading -->
+<div class="d-sm-flex align-items-center justify-content-between mb-4">
+    <h1 class="h3 mb-0 text-gray-800">실시간 도로 이상상황 모니터링</h1>
+</div>
+   
+<!-- Content Row -->
+<div class="row">
+
+    <!--event list-->
+    <div class="col-xl-8 col-lg-7">
+        <div class="card shadow mb-4">
+            <!-- Card Header - Dropdown -->
+            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">현재 발생 중 이벤트</h6>
+            </div>
+            <!--events_map 삽입-->
+            <!--실행 전 ngrok url 변경해줘야함-->
+            <iframe src="https://c033-61-255-134-194.ngrok-free.app/static/events_map.html" width="810px" height="415px" frameborder="0"></iframe>
+
+        </div>
+    </div>
+
+    <!-- event list -->
+    <div class="col-xl-4 col-lg-5">
+        <div class="card shadow mb-4">
+            <!-- Card Header - Dropdown -->
+            <div
+                class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">이벤트 발생 정보</h6>
+            </div>
+            <!--events_list 삽입-->
+            <!--실행 전 ngrok url 변경해줘야함-->
+            <iframe src="https://c033-61-255-134-194.ngrok-free.app/static/events_list.html" width="400px" height="415px" list-style = none frameborder="0"></iframe>
+        </div>
+    </div>
+</div>
+{% endblock %}
