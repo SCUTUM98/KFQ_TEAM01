@@ -19,7 +19,7 @@ def collect_data(results, frame, mapping, results_df, captured_time):
                 class_name = mapping[int(cls)]
                 label = f"Class: {class_name}, Confidence: {conf:.2f}"
                 color = (0, 0, 255)  # Green color for bounding box
-                thickness = 2
+                thickness = 3
                 cv2.rectangle(frame, (x1, y1), (x2, y2), color, thickness)
                 cv2.putText(frame, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, thickness)
                 
