@@ -9,7 +9,7 @@ import json
 
 cctv_router = APIRouter()
 
-UPLOAD_FOLDER = 'C:/work/python/python_basic/final/FASTAPI_mysql_basic/uploads/'
+UPLOAD_FOLDER = 'C:/Users/USER/Desktop/project/KFQ_TEAM01/API/uploads'
 
 @cctv_router.post("/add_event")
 def post(cctv_data: Union[CCTV_EVENTS, str], photo: UploadFile = File(...),
