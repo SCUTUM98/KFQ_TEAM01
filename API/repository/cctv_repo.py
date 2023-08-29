@@ -27,7 +27,7 @@ class EVENTS(Base):
     event_item = Column(String)
     event_description = Column(String)
 
-UPLOAD_FOLDER = 'C:/work/python/python_basic/KFQ_TEAM01-1/API'
+UPLOAD_FOLDER = 'C:/Users/USER/Desktop/project/KFQ_TEAM01/API/uploads'
 
 def insert(db: Session, events: CCTV_EVENTS, photo: UploadFile = File(...))-> EVENTS:
 
