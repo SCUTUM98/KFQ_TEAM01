@@ -1,0 +1,4 @@
+docker
+https://www.docker.com/
+mysql
+https://dev.mysql.com/downloads/installer/
