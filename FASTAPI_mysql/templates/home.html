@@ -5,6 +5,7 @@
 {% block contents %}
 <!--dashboard-->
 <!-- Page Heading -->
+<div class="container-fluid">
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
     <h1 class="h3 mb-0 text-gray-800">실시간 도로 이상상황 모니터링</h1>
 </div>
@@ -21,7 +22,7 @@
             </div>
             <!--events_map 삽입-->
             <!--실행 전 ngrok url 변경해줘야함-->
-            <iframe src="https://2f67-61-255-134-194.ngrok-free.app/static/events_map.html" width="830px" height="500px" frameborder="0"></iframe>
+            <iframe src="https://2f67-61-255-134-194.ngrok-free.app/static/events_map.html" width="800px" height="500px" frameborder="0"></iframe>
 
         </div>
     </div>
@@ -36,8 +37,9 @@
             </div>
             <!--events_list 삽입-->
             <!--실행 전 ngrok url 변경해줘야함-->
-            <iframe src="https://2f67-61-255-134-194.ngrok-free.app/static/events_list.html" width="410px" height="500px" list-style = none frameborder="0"></iframe>
+            <iframe src="https://2f67-61-255-134-194.ngrok-free.app/static/events_list.html" width="400px" height="500px" list-style = none frameborder="0"></iframe>
         </div>
     </div>
+</div>
 </div>
 {% endblock %}
