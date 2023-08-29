@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
-from router.cctv_router import user_router
+from router.cctv_router import cctv_router
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
@@ -19,7 +19,7 @@ app.add_middleware(
 app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
-app.include_router(user_router, prefix="/user")
+app.include_router(cctv_router, prefix="/cctv")
 
 
 @app.get("/")
