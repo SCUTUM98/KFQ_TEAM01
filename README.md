@@ -2,20 +2,21 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=180&text=是是非非&animation=&fontColor=ffffff&fontSize=70" />
     </div>
     <div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Project </h2>  
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 📖 Project </h2>  
     <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> sdf </div> 
     </div>
     <div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> Members </h2>
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🪪 Members </h2>
     <div style="text-align: left;">
-    <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ HyoSang Yoo (Team Leader, FastAPI) </h3> <br> 
+    <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 💻 HyoSang Yoo (Team Leader, FastAPI) </h3> <br> 
     <div  align= "center"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white">
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
     <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"></div>
-    <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ BonGeun Gu (YOLO Model, Logic, Object Detection) </h3> <br> 
-    <div  align= "center"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white">
+    <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ BonGeun Gu (YOLO Model, Logic, Object Detection) </h3> <br>
+    <div  align= "center"><img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/7c2e9311-b970-4542-b830-2232c8154b9d"> 
+    <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white">
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
     <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/Amazon S3-569A31?style=flat-square&logo=Amazon S3&logoColor=white">
