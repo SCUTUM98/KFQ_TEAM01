@@ -21,7 +21,7 @@
 ### ■ Image Segmentation
 #### 🏞️ Used Data: Camvid Data(701 images)
 #### 🏞️ Used Model: Resnet34
-#### 🏞️ Predict Results
+#### 🏞️ Predict Results ↓
 
 <div align = "center">
 <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/9c0a0aec-ae29-4001-9a51-ade8ce67c143" style="width: 40%; height: auto;" display="inline;">
@@ -67,6 +67,8 @@
 <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/82813a9a-4a03-47f2-b75c-760e1e7150f5" style="width: 600px; height: auto;"></div>
 
 ### ■ API Service
+#### API Framework
+
 ```treebash
 FastAPI/ : 패키지/모듈 root.
 │
@@ -93,6 +95,7 @@ FastAPI/ : 패키지/모듈 root.
 ```
 
 ### ■ WEB
+#### Webpage Framework
 
 ```treebash
 FastAPI/
@@ -119,6 +122,19 @@ FastAPI/
 │   └── ...
 └── Vehicle/..
 ```
+
+#### Webpage ex.
+#### Main page
+
+<div align = "center">
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/c2584bf8-d546-410d-bef6-845af3ab353f" style="width: 600px; height: auto;">
+</div>
+
+#### Statistics page
+
+<div align = "center">
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/1110bf61-6b77-4651-a1df-1abd2124b6b1" style="width: 600px; height: auto;">
+</div>
 
 <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 🪪 Mentor </h1>
 
