@@ -24,8 +24,8 @@
 #### 🏞️ Predict Results
 
 <div align = "center">
-<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/9c0a0aec-ae29-4001-9a51-ade8ce67c143" style="width: 600px; height: auto;">
-<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/7ec15c8c-d2d7-4aab-b457-664ab809d0e7" style="width: 600px; height: auto;"></div>
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/9c0a0aec-ae29-4001-9a51-ade8ce67c143" style="width: 50%; height: auto;">
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/7ec15c8c-d2d7-4aab-b457-664ab809d0e7" style="width: 50; height: auto;"></div>
 
 ### ■ YOLO Object Detection
 #### 🚀 상황 판단 로직의 결과와 모델 학습에 사용된 데이터셋의 출처는 [YOLO INFO](https://github.com/SCUTUM98/KFQ_TEAM01/blob/main/yolo/README.md)를 참고하세요.
