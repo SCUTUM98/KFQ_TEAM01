@@ -20,9 +20,8 @@
 
 ### ■ Image Segmentation
 
-
-
 ### ■ YOLO Object Detection
+#### 🚀 상황 판단 로직의 결과는 [Event Type]('https://github.com/SCUTUM98/KFQ_TEAM01/blob/main/yolo/README.md')를 참고하세요.
 
 <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/3932020b-731c-48a8-9c46-00af9ae064bd">
 
@@ -53,8 +52,6 @@ FastAPI/ : 패키지/모듈 root.
 ```
 
 ### ■ WEB
-
-
 
 <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 🪪 Mentor </h1>
 
