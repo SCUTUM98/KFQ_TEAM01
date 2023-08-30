@@ -25,7 +25,7 @@
 
 #### 🚀 YOLO Framework
 
-<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/d9b043e5-9586-4539-b999-0fe419d51ca8">
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/d9b043e5-9586-4539-b999-0fe419d51ca8"style="width: 700px; height: auto;">
 
 #### 🚀 Object Detection
 
