@@ -8,7 +8,7 @@
 >
 
 #### ■ Software Used
-> 🚀 YOLOv5
+> [🚀 YOLOv5]('https://github.com/ultralytics/yolov5')
 
 > OpenCV
 
@@ -24,7 +24,7 @@
 
 <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 🪪 Crew </h1> 
 
-#### 💻 HyoSang Yoo(Team Leader, API Server)
+#### 💻 HyoSang Yoo(Team Leader, API Server, Statistics Visualization)
 
 <div align = "center">
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/14b9fd5d-4531-4eb7-bce4-ad686dcb078d" 
@@ -35,7 +35,7 @@
     <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"></div>
 
-#### 💻 BonGeun Gu(YOLO Model, Logic, Object Detection, OpenCV)
+#### 💻 BonGeun Gu(YOLO Model, Detection Logic, Object Detection, OpenCV)
 
 <div align = "center">
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/7c2e9311-b970-4542-b830-2232c8154b9d" 
@@ -77,7 +77,7 @@
     <img src="https://img.shields.io/badge/Matlab-0076a8?style=flat-square&logo=Matlab&logoColor=white"></div>
 </div>
 
-#### 💻 Doyeon Park(DB)
+#### 💻 Doyeon Park(DB, Statistics Visualization)
 
 <div align = "center">
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/93095210-be99-4bf3-8a24-690081c6cfdd" 
