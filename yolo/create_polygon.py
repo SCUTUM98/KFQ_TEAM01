@@ -31,6 +31,11 @@ def check_polylist(poly_df):
     # Polygon 생성
     polygon = Polygon(sorted_polygon)
     
+    # Polygon 객체를 파일에 저장
+    with open('src/polygon_coords.txt', 'w') as f:
+        for x, y in sorted_polygon:
+            f.write(f"{x},{y}\n")
+            
     return polygon
 
 def object_polylist(x1, y1, x2, y2):

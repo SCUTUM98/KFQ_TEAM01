@@ -1,1 +1,1 @@
-url = ''
+url = 'https://14f5-61-255-134-194.ngrok-free.app/cctv/add_event'
