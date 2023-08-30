@@ -2,10 +2,10 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=180&text=是是非非&animation=&fontColor=ffffff&fontSize=70" />
     </div>
     <div style="text-align: left;"> 
-    <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 📖 Project </h1> 
-    <h2 style="color: #282d33; font-size: 25px"> 종합 기능형 교통관제 시스템 </h2> 
+    <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 📖 Project
+    <div style="font-weight: 700; font-size: 25px; text-align: left; color: #282d33;"> 종합 기능형 교통관제 시스템 </div>
     <div style="font-weight: 700; font-size: 22px; text-align: left; color: #282d33;"> 1. Description </div>
-    <div style="font-weight: 700; font-size: 22px; text-align: left; color: #282d33;"> 2. Software Used  </div>
+    <div style="font-weight: 700; font-size: 22px; text-align: left; color: #282d33;"> 2. Software Used  </div></h1>
     <a href="https://github.com/ultralytics/yolov5" style="color: #282d33; font-size: 15px; font-weight: 700;">■ YOLOv5</a>
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/95e37c72-3778-4e37-a128-6d739889b76a">
     </div>
