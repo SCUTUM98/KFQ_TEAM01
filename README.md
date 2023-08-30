@@ -19,6 +19,13 @@
 <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/95e37c72-3778-4e37-a128-6d739889b76a">
 
 ### ■ Image Segmentation
+#### 🏞️ Used Data: Camvid Data(701 images)
+#### 🏞️ Used Model: Resnet34
+#### 🏞️ Predict Results
+
+<div align = "center">
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/9c0a0aec-ae29-4001-9a51-ade8ce67c143" style="width: 600px; height: auto;">
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/7ec15c8c-d2d7-4aab-b457-664ab809d0e7" style="width: 600px; height: auto;"></div>
 
 ### ■ YOLO Object Detection
 #### 🚀 상황 판단 로직의 결과와 모델 학습에 사용된 데이터셋의 출처는 [YOLO INFO](https://github.com/SCUTUM98/KFQ_TEAM01/blob/main/yolo/README.md)를 참고하세요.
@@ -42,19 +49,22 @@
 ##### - Class: 5
 ##### - Used Class: Cat, Dog, Deer/Elk, Racoon, Wild boar/Pig
 
-<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/d94db4f4-79c4-4b46-b5bd-d083d72f2ec1" style="width: 600px; height: auto;">
+<div align = "center">
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/d94db4f4-79c4-4b46-b5bd-d083d72f2ec1" style="width: 600px; height: auto;"></div>
 
 ##### 🔥 Fire Detection Model
 ##### - Class: 3
 ##### - Used Class: Fire, Smoke, Car fire
 
-<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/d8b3c480-d433-4126-b328-59a2aaf7074d" style="width: 600px; height: auto;">
+<div align = "center">
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/d8b3c480-d433-4126-b328-59a2aaf7074d" style="width: 600px; height: auto;"></div>
 
 ##### 📦 Obstacle Detection Model
 ##### - Class: 5
 ##### - Used Class: Tree, Box, Tire, Drum can, Rock
 
-<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/82813a9a-4a03-47f2-b75c-760e1e7150f5" style="width: 600px; height: auto;">
+<div align = "center">
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/82813a9a-4a03-47f2-b75c-760e1e7150f5" style="width: 600px; height: auto;"></div>
 
 ### ■ API Service
 ```treebash
