@@ -1,3 +1,7 @@
+<div align= "center">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=180&text=是是非非&animation=&fontColor=ffffff&fontSize=70" />
+</div>
+
 # 1. EVENT_TYPE
 ```treebash
 EVENT/ : YOLO Object Detection을 통해 인지되는 Object를 기반으로 Event_type을 지정
