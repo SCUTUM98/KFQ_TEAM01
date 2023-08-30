@@ -4,7 +4,17 @@
 
 <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 📖 Project</h1>
 
-#### 종합 기능형 관제 시스템
+#### ■ Description
+>
+
+#### ■ Software Used
+> YOLOv5
+> OpenCV
+> Pytorch
+
+#### ■ Service Framework
+
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/95e37c72-3778-4e37-a128-6d739889b76a">
 
 <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 🪪 Mentor </h1>
  
@@ -52,6 +62,7 @@
     <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
     <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"></div>
+</div>
 
 #### 💻 YeLin Lee(API Server, WEB Service)
 
@@ -62,6 +73,7 @@
     <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
     <img src="https://img.shields.io/badge/Matlab-0076a8?style=flat-square&logo=Matlab&logoColor=white"></div>
+</div>
 
 #### 💻 Doyeon Park(DB)
 
