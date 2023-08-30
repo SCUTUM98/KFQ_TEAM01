@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-db_url = "mysql+mysqlconnector://root:tiger@localhost/cctvdb"
+db_url = "mysql+mysqldb://root:tiger@localhost/db_test"
 
 args = {
     "pool_size": 1,

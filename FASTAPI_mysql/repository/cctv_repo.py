@@ -27,7 +27,7 @@ class EVENTS(Base):
     event_item = Column(String)
     event_description = Column(String)
 
-UPLOAD_FOLDER = 'C:/Users/USER/Desktop/project/KFQ_TEAM01/FASTAPI_mysql/static/uploads'
+UPLOAD_FOLDER = "C:/workspace/Final_project/KFQ_TEAM01/FASTAPI_mysql/static/uploads"
 
 def insert(db: Session, events: CCTV_EVENTS, photo: UploadFile = File(...))-> EVENTS:
 
