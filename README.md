@@ -3,10 +3,13 @@
     </div>
     <div style="text-align: left;"> 
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 📖 Project </h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> sdf </div> 
+    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 종합 기능형 교통관제 시스템 </div>
+    <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/95e37c72-3778-4e37-a128-6d739889b76a">
     </div>
-    <div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🪪 Members </h2>
+    <div style="text-align: left;">
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🪪 Mentor </h2>
+    <div style="text-align: left;">
+    <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 💻 Chulwoo Kim </h3> <br>
     <div style="text-align: left;">
     <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 💻 HyoSang Yoo (Team Leader, FastAPI) </h3> <br>
     <div align = "center">
