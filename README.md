@@ -23,7 +23,7 @@
 ### ■ YOLO Object Detection
 
 ### ■ API Service
-'''treebash
+```treebash
 FastAPI/ : 패키지/모듈 root.
 │
 ├── model/ : API로 주고받을 데이터 model 정의.
@@ -46,7 +46,7 @@ FastAPI/ : 패키지/모듈 root.
 └── Vehicle/
     └── ...
 
-'''
+```
 
 ### ■ WEB
 
