@@ -8,11 +8,11 @@
 #### 🚘 종합 기능형 교통 관제 시스템 🚘
 
 ### ■ Software Used
-> [🚀 YOLOv5]('https://github.com/ultralytics/yolov5')
+> [🚀 YOLOv5]('https://github.com/ultralytics/yolov5'): Object Detection
 
-> OpenCV
+> OpenCV: Live Image Capture
 
-> Pytorch
+> Pytorch: YOLOv5 Model Learning
 
 ### ■ Service Framework
 
@@ -20,7 +20,11 @@
 
 ### ■ Image Segmentation
 
+
+
 ### ■ YOLO Object Detection
+
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/3932020b-731c-48a8-9c46-00af9ae064bd">
 
 ### ■ API Service
 ```treebash
@@ -49,6 +53,8 @@ FastAPI/ : 패키지/모듈 root.
 ```
 
 ### ■ WEB
+
+
 
 <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 🪪 Mentor </h1>
 
