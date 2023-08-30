@@ -7,32 +7,60 @@
     <div class="container-fluid">
     <h1 class="h3 mb-1 text-gray-800">머신러닝을 활용한 종합 기능형 교통관제</h1>
     <p class="mb-4"><br>기존 CCTV와 YOLO를 이용해 도로 위 이상상황을 감지함으로써 대형 사고를 예방하고 문제를 신속하게 처리하는 것을 목표로 합니다.
-        <a href="https://getbootstrap.com/docs"><br>내용을</a>입력하세요</p>
-
+        <a href="https://getbootstrap.com/docs"><br></a></p>
+        
     <!-- Content Row -->
     <div class="row">
-            
+
+        <!--event list-->
+        <div class="col-xl-4 col-lg-5">
+            <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div
+                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">개발목표</h6>
+                </div>
+                <img src="static/img/comment.png" width="380px" height="360px" list-style = none frameborder="0">
+            </div>
+        </div>
         <div class="col-xl-8 col-lg-7">
             <div class="card shadow mb-4">
                 <!-- Card Header - Dropdown -->
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                    <h6 class="m-0 font-weight-bold text-primary">현재 발생 중 이벤트</h6>
+                    <h6 class="m-0 font-weight-bold text-primary">개발목표</h6>
                 </div>
                 <!--events_map 삽입-->
-                <img src="static/img/service Framework.png" width="780" height="470" frameborder="0">    
+                <img src="static/img/goal.png"  width="800px" height="360px" frameborder="0">
+    
             </div>
         </div>
+    </div>
+    <div class="row">
 
-
-        <div class="col-xl-4 col-lg-5">
+        <!--event list-->
+        <div class="col-xl-8 col-lg-7">
             <div class="card shadow mb-4">
                 <!-- Card Header - Dropdown -->
                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                    <h6 class="m-0 font-weight-bold text-primary">어쩌구</h6>
+                    <h6 class="m-0 font-weight-bold text-primary">Service Framework</h6>
                 </div>
-                <!--내용삽입-->
+                <!--events_map 삽입-->
+                <img src="static/img/framework.png"  width="800" height="380" list-style = none frameborder="0">
+    
             </div>
-        </div>        
-    </div>    
+        </div>
+    
+        <!-- event list -->
+        <div class="col-xl-4 col-lg-5">
+            <div class="card shadow mb-4">
+                <!-- Card Header - Dropdown -->
+                <div
+                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-primary">Boundary Detection</h6>
+                </div>
+                <img src="static/img/opencv.png" width="350px" height="380px" list-style = none frameborder="0">
+            </div>
+        </div>
+    </div>
     <!-- End of Main Content -->
 {% endblock %}
