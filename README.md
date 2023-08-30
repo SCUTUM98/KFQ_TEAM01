@@ -4,17 +4,17 @@
 
 <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 📖 Project</h1>
 
-#### ■ Description
->
+### ■ Description
+#### 🚘 종합 기능형 교통 관제 시스템 🚘
 
-#### ■ Software Used
+### ■ Software Used
 > [🚀 YOLOv5]('https://github.com/ultralytics/yolov5')
 
 > OpenCV
 
 > Pytorch
 
-#### ■ Service Framework
+### ■ Service Framework
 
 <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/95e37c72-3778-4e37-a128-6d739889b76a">
 
