@@ -21,9 +21,16 @@
 ### ■ Image Segmentation
 
 ### ■ YOLO Object Detection
-#### 🚀 상황 판단 로직의 결과는 [Event Type](https://github.com/SCUTUM98/KFQ_TEAM01/blob/main/yolo/README.md)을 참고하세요.
+#### 🚀 상황 판단 로직의 결과와 모델 학습에 사용된 데이터셋의 출처는 [YOLO INFO](https://github.com/SCUTUM98/KFQ_TEAM01/blob/main/yolo/README.md)를 참고하세요.
+
+#### 🚀 YOLO Framework
+
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/d9b043e5-9586-4539-b999-0fe419d51ca8">
+
+#### 🚀 Object Detection
 
 <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/3932020b-731c-48a8-9c46-00af9ae064bd">
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/90c634e9-c9b2-4c6a-a8b7-8ef772be0f13">
 
 ### ■ API Service
 ```treebash
