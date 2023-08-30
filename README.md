@@ -8,8 +8,10 @@
 >
 
 #### ■ Software Used
-> YOLOv5
+> 🚀 YOLOv5
+
 > OpenCV
+
 > Pytorch
 
 #### ■ Service Framework
@@ -18,7 +20,7 @@
 
 <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 🪪 Mentor </h1>
  
-#### CheolWoo Kim
+#### 💻 CheolWoo Kim
 
 <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 🪪 Crew </h1> 
 
