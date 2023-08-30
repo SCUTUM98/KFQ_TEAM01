@@ -8,7 +8,7 @@
 #### 🚘 종합 기능형 교통 관제 시스템 🚘
 
 ### ■ Software Used
-> [🚀 YOLOv5]('https://github.com/ultralytics/yolov5'): Object Detection
+> [🚀 YOLOv5]("https://github.com/ultralytics/yolov5"): Object Detection
 
 > OpenCV: Live Image Capture
 
@@ -21,7 +21,7 @@
 ### ■ Image Segmentation
 
 ### ■ YOLO Object Detection
-#### 🚀 상황 판단 로직의 결과는 [Event Type]('https://github.com/SCUTUM98/KFQ_TEAM01/blob/main/yolo/README.md')를 참고하세요.
+#### 🚀 상황 판단 로직의 결과는 [Event Type]("https://github.com/SCUTUM98/KFQ_TEAM01/blob/main/yolo/README.md")를 참고하세요.
 
 <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/3932020b-731c-48a8-9c46-00af9ae064bd">
 
