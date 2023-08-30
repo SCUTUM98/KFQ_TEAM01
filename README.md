@@ -30,10 +30,31 @@
 #### 🚀 Road Boundary Check
 
 #### 🚀 Object Detection
+##### 📹 YOLOv5m
+##### - Class: 80
+##### - Used Class: Person, Bicycle, Motorcycle, Car, Bus, Truck
 
 <div align = "center">
 <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/3932020b-731c-48a8-9c46-00af9ae064bd" style="width: 600px; height: auto;">
 <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/90c634e9-c9b2-4c6a-a8b7-8ef772be0f13" style="width: 600px; height: auto;"></div>
+
+##### 🐶 Animal Detection Model
+##### - Class: 5
+##### - Used Class: Cat, Dog, Deer/Elk, Racoon, Wild boar/Pig
+
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/d94db4f4-79c4-4b46-b5bd-d083d72f2ec1" style="width: 600px; height: auto;">
+
+##### 🔥 Fire Detection Model
+##### - Class: 3
+##### - Used Class: Fire, Smoke, Car fire
+
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/d8b3c480-d433-4126-b328-59a2aaf7074d" style="width: 600px; height: auto;">
+
+##### 📦 Obstacle Detection Model
+##### - Class: 5
+##### - Used Class: Tree, Box, Tire, Drum can, Rock
+
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/82813a9a-4a03-47f2-b75c-760e1e7150f5" style="width: 600px; height: auto;">
 
 ### ■ API Service
 ```treebash
