@@ -27,6 +27,8 @@
 
 <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/d9b043e5-9586-4539-b999-0fe419d51ca8">
 
+#### 🚀 Road Boundary Check
+
 #### 🚀 Object Detection
 
 <div align = "center">
@@ -117,10 +119,11 @@ FastAPI/ : 패키지/모듈 root.
     <div  align= "center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
     <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
-    <img src="https://img.shields.io/badge/Matlab-0076a8?style=flat-square&logo=Matlab&logoColor=white"></div>
+    <img src="https://img.shields.io/badge/Matlab-0076a8?style=flat-square&logo=Matlab&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"></div>
 </div>
 
-#### 💻 Doyeon Park(DB, Statistics Visualization)
+#### 💻 Doyeon Park(DB, Statistics & Map Visualization)
 
 <div align = "center">
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/93095210-be99-4bf3-8a24-690081c6cfdd" 
@@ -128,7 +131,9 @@ FastAPI/ : 패키지/모듈 root.
     <div  align= "center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
     <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
-    <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=white"></div>
+    <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=white">
+<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"></br>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"></div>
 
 <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact us </h1> <br> 
     <div align= "center">  </div>  <br> 
