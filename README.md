@@ -13,6 +13,7 @@
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🪪 Mentor </h2>
     <div style="text-align: left;">
     <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 💻 Chulwoo Kim </h3> <br>
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🪪 Crew </h2>
     <div style="text-align: left;">
     <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 💻 HyoSang Yoo (Team Leader, FastAPI) </h3> <br>
     <div align = "center">
