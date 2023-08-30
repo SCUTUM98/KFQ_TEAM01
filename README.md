@@ -18,8 +18,40 @@
 
 <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/95e37c72-3778-4e37-a128-6d739889b76a">
 
+### ■ Image Segmentation
+
+### ■ YOLO Object Detection
+
+### ■ API Service
+'''treebash
+FastAPI/ : 패키지/모듈 root.
+│
+├── model/ : API로 주고받을 데이터 model 정의.
+│   ├── cctv_model.py : cctv 등록/조회 관련 API 입력 param 및 응답 데이터에 대한 model.
+│   └── ...
+│
+├── repository/ : mysql db CRUD 관련 로직 및 데이터 model 정의.
+│   ├── cctv_repo.py : cctv 테이블에 대한 CRUD 처리 및 cctv 테이블 데이터 model 구현.
+│   └── ...
+│
+├── resource/ : API server 동작에 필요한 각종 시스템 리소스(database 접속 등).
+│   ├── database.py : DB 접속 및 session 연결 관련 코드.
+│   └── ...
+│
+├── router/ : API endpoint별 처리 로직.
+│   ├── cctv.py : cctv 등록, 조회 관련 API 경로 및 대응되는 endpoint 로직 구현.
+│   └── ...
+│
+├── main.py : API server를 실행할 main 파일.
+└── Vehicle/
+    └── ...
+
+'''
+
+### ■ WEB
+
 <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 🪪 Mentor </h1>
- 
+
 #### 💻 CheolWoo Kim
 
 <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 🪪 Crew </h1> 
@@ -28,7 +60,7 @@
 
 <div align = "center">
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/14b9fd5d-4531-4eb7-bce4-ad686dcb078d" 
-    style="width:100px; height:180px;"></div>
+    style="width:100px; height:200px;"></div>
     <div  align= "center"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white">
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
     <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
@@ -39,7 +71,7 @@
 
 <div align = "center">
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/7c2e9311-b970-4542-b830-2232c8154b9d" 
-    style="width:100px; height:180px;"></div>
+    style="width:100px; height:200px;"></div>
     <div  align = "center"> 
     <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white">
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
@@ -57,7 +89,7 @@
 
 <div align = "center">
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/94ca4c18-736e-4533-a444-ac44b1baa0a4" 
-    style="width:100px; height:180px;"></div>
+    style="width:100px; height:200px;"></div>
     <div  align = "center">  
     <div  align= "center"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white">
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
@@ -70,7 +102,7 @@
 
 <div align = "center">
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/b4e74df5-d007-4d9e-863f-f6f214c58b4e" 
-    style="width:100px; height:180px;"></div>
+    style="width:100px; height:200px;"></div>
     <div  align= "center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
     <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
@@ -81,7 +113,7 @@
 
 <div align = "center">
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/93095210-be99-4bf3-8a24-690081c6cfdd" 
-    style="width:100px; height:180px;"></div>
+    style="width:100px; height:200px;"></div>
     <div  align= "center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
     <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
