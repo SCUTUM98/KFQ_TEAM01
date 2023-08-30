@@ -2,8 +2,8 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=180&text=是是非非&animation=&fontColor=ffffff&fontSize=70" />
     </div>
     <div style="text-align: left;"> 
-    <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 📖 Project </h1>  
-    <div style="font-weight: 700; font-size: 25px; text-align: left; color: #282d33;"> 종합 기능형 교통관제 시스템 </div>
+    <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 📖 Project </h1> 
+    <h1 style="color: #282d33; font-size: 25px"> 종합 기능형 교통관제 시스템 </h1> 
     <div style="font-weight: 700; font-size: 22px; text-align: left; color: #282d33;"> 1. Description </div>
     <div style="font-weight: 700; font-size: 22px; text-align: left; color: #282d33;"> 2. Software Used  </div>
     <a href="https://github.com/ultralytics/yolov5" style="color: #282d33; font-size: 15px; font-weight: 700;">■ YOLOv5</a>
@@ -68,13 +68,13 @@
     <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=white"></div>
     </div>
     <div style="text-align: left;">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact me </h2> <br> 
+    <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact us </h1> <br> 
     <div align= "center">  </div>  <br> 
     <div align= "center"> <a href="https://hits.seeyoufarm.com"> <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FKFQ Final Project%2F&count_bg=%23000000&title_bg=%23000000&icon=github.svg&icon_color=%23FFFFFF&title=GitHub&edge_flat=false"/></a>
        </div> 
     </div>
     <div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🏅 Stats </h2> <div align= "center"> <img src="https://github-readme-stats.vercel.app/api?username=KFQ Final Project&bg_color=180,00000000,&title_color=000000&text_color=000000"
+    <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🏅 Stats </h1> <div align= "center"> <img src="https://github-readme-stats.vercel.app/api?username=KFQ Final Project&bg_color=180,00000000,&title_color=000000&text_color=000000"
          /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KFQ Final Project&layout=compact&bg_color=180,00000000,&title_color=000000&text_color=000000"
            /> </div> 
     </div>
