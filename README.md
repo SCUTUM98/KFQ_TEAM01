@@ -31,7 +31,7 @@
 
 <div align = "center">
 <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/3932020b-731c-48a8-9c46-00af9ae064bd" style="width: 600px; height: auto;">
-<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/90c634e9-c9b2-4c6a-a8b7-8ef772be0f13"></div>
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/90c634e9-c9b2-4c6a-a8b7-8ef772be0f13" style="width: 600px; height: auto;"></div>
 
 ### ■ API Service
 ```treebash
