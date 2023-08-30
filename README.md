@@ -9,6 +9,7 @@
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🪪 Members </h2>
     <div style="text-align: left;">
     <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 💻 HyoSang Yoo (Team Leader, FastAPI) </h3> <br>
+    <div align = "center">
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/14b9fd5d-4531-4eb7-bce4-ad686dcb078d" 
     style="width:100px; height:180px;"></div>
     <div  align= "center"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white">
@@ -33,6 +34,7 @@
     <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=flat-square&logo=Javascript&logoColor=white">
     <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"></div>
     <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 💻 KwangWon Lee (Image Segementation) </h3> <br>
+    <div align = "center">
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/94ca4c18-736e-4533-a444-ac44b1baa0a4" 
     style="width:100px; height:180px;"></div>
     <div  align = "center">  
@@ -42,6 +44,7 @@
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
     <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"></div>
     <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 💻 YeRin Lee (FastAPI, Web) </h3> <br> 
+    <div align = "center">
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/b4e74df5-d007-4d9e-863f-f6f214c58b4e" 
     style="width:100px; height:180px;"></div>
     <div  align= "center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
@@ -49,6 +52,7 @@
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
     <img src="https://img.shields.io/badge/Matlab-0076a8?style=flat-square&logo=Matlab&logoColor=white"></div>
     <h3 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 💻 DoYeon Park (DB) </h3> <br>
+    <div align = "center">
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/93095210-be99-4bf3-8a24-690081c6cfdd" 
     style="width:100px; height:180px;"></div>
     <div  align= "center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
