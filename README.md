@@ -2,7 +2,8 @@
     <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=180&text=是是非非&animation=&fontColor=ffffff&fontSize=70" />
     </div>
     <div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 100px"> 📖 Project </h2>  
+    ## Project
+    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33; font-size: 25px"> 📖 Project </h2>  
     <div style="font-weight: 700; font-size: 25px; text-align: left; color: #282d33;"> 종합 기능형 교통관제 시스템 </div>
     <div style="font-weight: 700; font-size: 22px; text-align: left; color: #282d33;"> 1. Description </div>
     <div style="font-weight: 700; font-size: 22px; text-align: left; color: #282d33;"> 2. Software Used  </div>
