@@ -14,6 +14,14 @@
 
 > Pytorch: YOLOv5 Model Learning
 
+> ngrok
+
+> FastAPI
+
+> Docker
+
+> MySQL
+
 ### ■ Service Framework
 
 <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/95e37c72-3778-4e37-a128-6d739889b76a">
