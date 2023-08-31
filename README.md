@@ -6,6 +6,7 @@
 
 ### ■ Description
 #### 🚘 종합 기능형 교통 관제 시스템 🚘
+#### 🚍 YOLO Object Detection을 활용해 실시간 도로 상황 인식 및 이상상황을 판단하여 다방면 서비스에서 활용가능한 데이터를 "종합 기능형 교통 관제 시스템"으로 제공합니다.
 
 ### ■ Software Used
 > [🚀 YOLOv5](https://github.com/ultralytics/yolov5): Object Detection
@@ -13,6 +14,14 @@
 > OpenCV: Live Image Capture
 
 > Pytorch: YOLOv5 Model Learning
+
+> ngrok
+
+> FastAPI
+
+> Docker
+
+> MySQL
 
 ### ■ Service Framework
 
@@ -149,9 +158,9 @@ FastAPI/
     style="width:100px; height:200px;"></div>
     <div  align= "center"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white">
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
-    <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white">
-    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"></div>
+    <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"></div>
 
 #### 💻 BonGeun Gu(YOLO Model, Detection Logic, Object Detection, OpenCV)
 
@@ -161,10 +170,9 @@ FastAPI/
     <div  align = "center"> 
     <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white">
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
-    <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/Amazon S3-569A31?style=flat-square&logo=Amazon S3&logoColor=white">
     <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white">
-    <br/><img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white">
+    <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"></br>
     <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white">
@@ -179,7 +187,6 @@ FastAPI/
     <div  align = "center">  
     <div  align= "center"><img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=C&logoColor=white">
     <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
-    <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
     <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"></div>
 </div>
@@ -190,7 +197,6 @@ FastAPI/
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/b4e74df5-d007-4d9e-863f-f6f214c58b4e" 
     style="width:100px; height:200px;"></div>
     <div  align= "center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
-    <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
     <img src="https://img.shields.io/badge/Matlab-0076a8?style=flat-square&logo=Matlab&logoColor=white">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white"></div>
@@ -202,10 +208,9 @@ FastAPI/
     <img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/93095210-be99-4bf3-8a24-690081c6cfdd" 
     style="width:100px; height:200px;"></div>
     <div  align= "center"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white">
-    <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white">
     <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white">
     <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=white">
-<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white"></br>
+<img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon AWS&logoColor=white">
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"></div>
 
 <h1 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🧑‍💻 Contact us </h1> <br> 
