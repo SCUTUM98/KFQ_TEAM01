@@ -25,7 +25,7 @@
 
 ### ■ Service Framework
 
-<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/95e37c72-3778-4e37-a128-6d739889b76a">
+<img src = "https://github.com/SCUTUM98/KFQ_TEAM01/assets/43438476/542697a3-4a68-48c4-81b4-e6b5c1e757fc">
 
 ### ■ Image Segmentation
 #### 🏞️ Used Data: Camvid Data(701 images)
